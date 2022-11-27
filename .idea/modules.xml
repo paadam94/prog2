@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/_20210105.iml" filepath="$PROJECT_DIR$/_20210105.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beugrok/beugrok.iml" filepath="$PROJECT_DIR$/beugrok/beugrok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orai/orai.iml" filepath="$PROJECT_DIR$/orai/orai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prog2.iml" filepath="$PROJECT_DIR$/prog2.iml" />
     </modules>
   </component>
 </project>
