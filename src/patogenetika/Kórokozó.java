@@ -1,14 +1,15 @@
 package patogenetika;
 
+import java.util.Objects;
 import java.util.TreeMap;
 
 public abstract class Kórokozó implements Comparable<Kórokozó> {
-    private char type;
-    private String name;
-    private String nameOfDisease;
-    private String[] victims;
+    private final char type;
+    private final String name;
+    private final String nameOfDisease;
+    private final String[] victims;
 
-    private static TreeMap<Character, String> typeMap = new TreeMap<>();
+    private static final TreeMap<Character, String> typeMap = new TreeMap<>();
     static {
         typeMap.put('P', "prion");
         typeMap.put('V', "virus");
@@ -18,7 +19,7 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
         typeMap.put('A', "allat");
     }
 
-    class IllegalArgumentException
+    static class IllegalArgumentException
             extends RuntimeException {
         public IllegalArgumentException(String message) {
             super(message);
@@ -32,12 +33,12 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
             throws IllegalArgumentException {
 
         if (!typeValidator(type)) {
-            String msg = String.format("Invalid type: {}", type);
+            String msg = String.format("Invalid type: %c", type);
             throw new IllegalArgumentException(msg);
         }
 
         if (!nameValidator(name)) {
-            String msg = String.format("Invalid name: {}", name);
+            String msg = String.format("Invalid name: %s", name);
             throw new IllegalArgumentException(msg);
         }
 
@@ -52,46 +53,34 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
     }
 
     boolean nameValidator(String name) {
-        if (name == null || name.isEmpty()) {
-            return false;
-        }
-        return true;
+        return !(name == null || name.isEmpty());
     }
 
     String typeToString() throws IllegalArgumentException {
-        String msg;
-        switch (this.type) {
-            case 'P':
-                msg = "prion";
-                break;
-            case 'V':
-                msg = "virus";
-                break;
-            case 'B':
-                msg = "bacterium";
-                break;
-            case 'G':
-                msg = "gomba";
-                break;
-            case 'N':
-                msg = "noveny";
-                break;
-            case 'A':
-                msg = "allat";
-                break;
-            default:
-                msg = String.format("Invalid type: {}", type);
+        return switch (this.type) {
+            case 'P' -> "prion";
+            case 'V' -> "virus";
+            case 'B' -> "bacterium";
+            case 'G' -> "gomba";
+            case 'N' -> "noveny";
+            case 'A' -> "allat";
+            default -> {
+                String msg = String.format("Invalid type: {}", type);
                 throw new IllegalArgumentException(msg);
-        }
-        return msg;
+            }
+        };
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(type, name);
     }
 
     @Override
     public boolean equals(Object o) {
         Kórokozó p = (Kórokozó) o;
-        if (this.name == p.name && this.type == p.type) return true;
-        return false;
-    };
+        return this.name.equals(p.name) && this.type == p.type;
+    }
 
     @Override
     public String toString() {
@@ -117,7 +106,7 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
 
     @Override
     public int compareTo(Kórokozó o) {
-        if (!(this.type != o.type)) {
+        if (this.type != o.type) {
             return Character.compare(this.type, o.type);
         } else {
             return this.name.compareTo(o.name);
