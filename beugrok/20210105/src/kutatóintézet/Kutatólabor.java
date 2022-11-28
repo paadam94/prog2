@@ -5,9 +5,10 @@ import patogenetika.Kórokozó;
 import patogenetika.Vírus;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Kutatólabor implements KórokozóTár {
-    private String name;
+    final private String name;
     private TreeSet<Kórokozó> kórokozók;
 
     public Kutatólabor(String name) {
@@ -16,7 +17,7 @@ public class Kutatólabor implements KórokozóTár {
 
     // hozzáadja a megkapott tömbben található kórokozókat a kórokozótárhoz
     public void hozzáad(Kórokozó[] kórokozók) {
-        this.hozzáad(kórokozók);
+        this.kórokozók.addAll(Arrays.stream(kórokozók).collect(Collectors.toSet()));
     }
     public void hozzáad(Collection<Kórokozó> kórokozók) {
         this.kórokozók.addAll(kórokozók);
@@ -31,7 +32,7 @@ public class Kutatólabor implements KórokozóTár {
                 if (virus.isCorona()) {
                     vírusok.add(virus);
                 }
-            };
+            }
 
         });
         return vírusok;
@@ -39,8 +40,8 @@ public class Kutatólabor implements KórokozóTár {
     // visszaadja lexikografikusan növekvő sorrendben a kórokozótárban szereplő
     // kórokozók által okozott összes betegséget úgy, hogy egy betegség csak egyszer
     // szerepel a kollekcióban (null értékek és üres sztringek nélkül!)
-    public java.util.Collection<String> betegségek() {
-        java.util.TreeSet set = new TreeSet<String>();
+    public TreeSet betegségek() {
+        TreeSet<String> set = new TreeSet<String>();
         kórokozók.forEach(kórokozó -> { set.add(kórokozó.getNameOfDisease()); });
         return set;
     }
@@ -50,7 +51,7 @@ public class Kutatólabor implements KórokozóTár {
         StringBuilder sb = new StringBuilder();
         sb.append(this.name)
                 .append("\n");
-        kórokozók.forEach(kórokozó -> { sb.append(kórokozó); });
+        kórokozók.forEach(sb::append);
 
         return sb.toString();
     }

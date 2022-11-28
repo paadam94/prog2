@@ -12,8 +12,10 @@ public class Baktérium extends Kórokozó {
 
     @Override
     public String toString() {
-        return String.join(super.toString(),
-                "; ",
-                this.tribe);
+        StringBuilder sb = new StringBuilder();
+        sb.append(super.toString())
+                .append("; ")
+                .append(this.tribe);
+        return sb.toString();
     }
 }

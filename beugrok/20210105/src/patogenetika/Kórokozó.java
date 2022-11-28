@@ -23,12 +23,6 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
         typeMap.put('A', "allat");
     }
 
-    static class IllegalArgumentException
-            extends RuntimeException {
-        public IllegalArgumentException(String message) {
-            super(message);
-        }
-    }
 
     public Kórokozó(char type,
                     String name,
@@ -69,21 +63,23 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
             case 'N' -> "noveny";
             case 'A' -> "allat";
             default -> {
-                String msg = String.format("Invalid type: {}", type);
+                String msg = String.format("Invalid type: %c", type);
                 throw new IllegalArgumentException(msg);
             }
         };
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(type, name);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Kórokozó kórokozó = (Kórokozó) o;
+        return type == kórokozó.type && name.equals(kórokozó.name);
     }
 
     @Override
-    public boolean equals(Object o) {
-        Kórokozó p = (Kórokozó) o;
-        return this.name.equals(p.name) && this.type == p.type;
+    public int hashCode() {
+        return Objects.hash(type, name);
     }
 
     @Override
@@ -101,11 +97,15 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
         String victimsString = victimsStringBuilder.toString();
         if (victimsString.isEmpty()) victimsString = "-";
 
-        return String.join(this.typeMap.get(this.type), ": ",
-                this.name, "; ",
-                "name of disease: ", nameOfDiseaseString,
-                "victims: ", victimsString
-        );
+        StringBuilder sb = new StringBuilder();
+        sb.append(typeMap.get(this.type))
+                .append(": ")
+                .append(this.name)
+                .append("; name of disease: ")
+                .append(nameOfDiseaseString)
+                .append("; victims: ")
+                .append(victimsString);
+        return sb.toString();
     }
 
     @Override

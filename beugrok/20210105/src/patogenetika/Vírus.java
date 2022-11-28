@@ -17,11 +17,9 @@ public class Vírus extends Kórokozó {
         @Override
         public String toString() {
             if (isCorona) {
-                return String.join(super.toString(),
-                        "; koronavirus");
+                return super.toString() + "; koronavirus";
             } else {
-                return String.join(super.toString(),
-                        "; nem koronavirus");
+                return super.toString() + "; nem koronavirus";
             }
         }
 }
