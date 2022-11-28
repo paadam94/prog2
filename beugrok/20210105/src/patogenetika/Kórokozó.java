@@ -7,10 +7,14 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
     private final char type;
     private final String name;
     private final String nameOfDisease;
-    private final String[] victims;
+    private final String[] hosts;
 
     public String getNameOfDisease() {
         return nameOfDisease;
+    }
+
+    public String[] getHosts() {
+        return hosts;
     }
 
     private static final TreeMap<Character, String> typeMap = new TreeMap<>();
@@ -43,7 +47,7 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
         this.type = type;
         this.name = name;
         this.nameOfDisease = nameOfDisease;
-        this.victims = victims;
+        this.hosts = victims;
     }
 
     boolean typeValidator(char type) {
@@ -90,9 +94,9 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
                 : this.nameOfDisease;
 
         StringBuilder victimsStringBuilder = new StringBuilder();
-        for(int i = 0; i < this.victims.length; ++i) {
+        for(int i = 0; i < this.hosts.length; ++i) {
             if(i != 0) victimsStringBuilder.append(", ");
-            victimsStringBuilder.append(this.victims[i]);
+            victimsStringBuilder.append(this.hosts[i]);
         }
         String victimsString = victimsStringBuilder.toString();
         if (victimsString.isEmpty()) victimsString = "-";

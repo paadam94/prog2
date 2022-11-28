@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/20210105/src/IllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/20210105/src/in2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/beugrok/in2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/prog2/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/prog2/url.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Baktérium.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Baktérium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Vírus.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Vírus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/adam/pti/pti_code/prog2/beugrok/20210105&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/20210105",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Teszt_20210105" type="Application" factoryName="Application">
+    <configuration name="Teszt" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="teszt.Teszt" />
       <module name="beugrok" />
-      <option name="PROGRAM_PARAMETERS" value="src/in.txt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok/20210105" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teszt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PROGRAM_PARAMETERS" value="beugrok/20210105/src/in2.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
-      <workItem from="1669622669410" duration="6622000" />
+      <workItem from="1669622669410" duration="13941000" />
     </task>
     <servers />
   </component>
@@ -89,16 +82,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java</url>
-          <line>87</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

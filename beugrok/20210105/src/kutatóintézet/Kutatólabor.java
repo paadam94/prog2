@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class Kutatólabor implements KórokozóTár {
     final private String name;
-    private TreeSet<Kórokozó> kórokozók;
+    private TreeSet<Kórokozó> kórokozók = new TreeSet<>();
 
     public Kutatólabor(String name) {
         this.name = name;
@@ -27,13 +27,16 @@ public class Kutatólabor implements KórokozóTár {
     public java.util.List<Vírus> koronavírusokGazdában(String gazdatest) {
         java.util.List<Vírus> vírusok = new java.util.LinkedList<>();
         kórokozók.forEach(kórokozó -> {
-            if (kórokozó instanceof Vírus) {
-                Vírus virus = (Vírus) kórokozó;
-                if (virus.isCorona()) {
-                    vírusok.add(virus);
+            if (!(kórokozó instanceof Vírus)) return;
+            Vírus virus = (Vírus) kórokozó;
+            if (!virus.isCorona()) return;
+            boolean flag = false;
+            for(String victim: virus.getHosts()) {
+                if (victim.equals(gazdatest)) {
+                    flag = true;
                 }
             }
-
+            if (flag) vírusok.add(virus);
         });
         return vírusok;
     }

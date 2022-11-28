@@ -1,5 +1,6 @@
 package teszt;
 
+import kutatóintézet.Kutatólabor;
 import patogenetika.Baktérium;
 import patogenetika.Kórokozó;
 import patogenetika.Vírus;
@@ -24,11 +25,26 @@ public class Teszt {
                     System.err.printf("Error: %s\n", e.getMessage());
                 }
             }
-
         } catch (FileNotFoundException e) {
             System.err.printf("Error: %s\n",e.getMessage());
         }
-        kórokozók.forEach(System.out::println);
+
+        // Part 7.
+        Kutatólabor kutatólabor;
+        if (args.length < 2) {
+            kutatólabor = new Kutatólabor("DE Kutatólabor");
+        } else {
+            kutatólabor = new Kutatólabor(args[1]);
+        }
+
+        kutatólabor.hozzáad(kórokozók);
+
+        // reading gazdatest
+        Scanner inputScanner = new Scanner(System.in);
+        String input = inputScanner.nextLine();
+
+        // filter and print
+        kutatólabor.koronavírusokGazdában(input).forEach(System.out::println);
     }
 }
 
