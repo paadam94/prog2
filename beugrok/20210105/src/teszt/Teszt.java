@@ -3,6 +3,7 @@ package teszt;
 import kutatóintézet.Kutatólabor;
 import patogenetika.Baktérium;
 import patogenetika.Kórokozó;
+import patogenetika.KórokozóTár;
 import patogenetika.Vírus;
 
 import java.io.File;
@@ -45,6 +46,29 @@ public class Teszt {
 
         // filter and print
         kutatólabor.koronavírusokGazdában(input).forEach(System.out::println);
+
+        // Part 8.
+        input = inputScanner.nextLine();
+        KórokozóTár[] tarak = new KórokozóTár[] { kutatólabor };
+        registerDisease(tarak, input);
+        for(KórokozóTár tar: tarak) {
+            System.out.println(tar);
+        }
+    }
+
+    static void registerDisease(KórokozóTár[] arr, String nameOfDisease) {
+        for(KórokozóTár tar: arr) {
+            if (!tar.betegségek().contains(nameOfDisease)) {
+                Baktérium[] b =
+                        new Baktérium[]{
+                                new Baktérium("új baci",
+                                        nameOfDisease,
+                                        new String[]{},
+                                        "új törzs")
+                        };
+                tar.hozzáad(b);
+            }
+        }
     }
 }
 

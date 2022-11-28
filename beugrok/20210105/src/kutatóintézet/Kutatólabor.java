@@ -53,9 +53,11 @@ public class Kutatólabor implements KórokozóTár {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(this.name)
-                .append("\n");
-        kórokozók.forEach(sb::append);
-
+                .append("\n\n");
+        kórokozók.forEach(kórokozó -> {
+            sb.append(kórokozó);
+            sb.append("\n");
+        });
         return sb.toString();
     }
 
