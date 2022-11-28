@@ -3,7 +3,7 @@ package mikulas;
 public class GyerekJatek extends Ajandek {
     private final long ageLimit;
 
-    public GyerekJatek(String name, float tomeg, long price, long ageLimit) {
+    public GyerekJatek(String name, float tomeg, int price, long ageLimit) {
         super(name, tomeg, price);
         this.ageLimit = ageLimit;
     }

@@ -2,22 +2,22 @@ package mikulas;
 
 public class Ajandek implements Comparable<Ajandek> {
     protected String name;
-    protected float tomeg;
-    protected long price;
+    protected double tomeg;
+    protected int price;
 
     public String getName() {
         return name;
     }
 
-    public float getTomeg() {
+    public double getTomeg() {
         return tomeg;
     }
 
-    public long getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public Ajandek(String name, float tomeg, long price) {
+    public Ajandek(String name, float tomeg, int price) {
         this.name = name;
         this.tomeg = tomeg;
         this.price = price;
@@ -36,8 +36,11 @@ public class Ajandek implements Comparable<Ajandek> {
 
     @Override
     public int hashCode() {
-        int result = name.hashCode();
-        result = 31 * result + (tomeg != 0.0f ? Float.floatToIntBits(tomeg) : 0);
+        int result;
+        long temp;
+        result = name.hashCode();
+        temp = Double.doubleToLongBits(tomeg);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
         return result;
     }
 
