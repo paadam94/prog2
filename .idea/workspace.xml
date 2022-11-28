@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/beugrok/beugrok.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orai/orai.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/KórokozóTár.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Vírus.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Vírus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/20210105",
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
@@ -59,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
-      <workItem from="1669589788012" duration="1075000" />
+      <workItem from="1669589788012" duration="4865000" />
     </task>
     <servers />
   </component>

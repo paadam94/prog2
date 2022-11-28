@@ -9,6 +9,10 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
     private final String nameOfDisease;
     private final String[] victims;
 
+    public String getNameOfDisease() {
+        return nameOfDisease;
+    }
+
     private static final TreeMap<Character, String> typeMap = new TreeMap<>();
     static {
         typeMap.put('P', "prion");

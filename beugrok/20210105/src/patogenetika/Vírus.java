@@ -3,6 +3,9 @@ package patogenetika;
 public class Vírus extends Kórokozó {
         protected boolean isCorona;
 
+        public boolean isCorona() {
+            return this.isCorona;
+        }
         public Vírus( String name,
                       String nameOfDisease,
                       String[] victims,
