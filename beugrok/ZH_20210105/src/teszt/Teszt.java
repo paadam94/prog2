@@ -48,7 +48,6 @@ public class Teszt {
 
         // filter and print
         kutatólabor.koronavírusokGazdában(input).forEach(System.out::println);
-        System.out.println("--------------------------------------");
         // Part 8.
         input = inputScanner.nextLine();
         KórokozóTár[] tarak = new KórokozóTár[]{ kutatólabor };

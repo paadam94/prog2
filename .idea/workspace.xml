@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/ZH_20211221.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/_20210105.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/ZH_20210105.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/in2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/in2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/BetegsegComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/kutatóintézet/BetegsegComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/kutatóintézet/Kutatólabor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Baktérium.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/patogenetika/Baktérium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/patogenetika/Kórokozó.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/KórokozóTár.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/patogenetika/KórokozóTár.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Vírus.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/patogenetika/Vírus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/teszt/Teszt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/beugrok.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/beugrok.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +55,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/20210105",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/ZH_20210105",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
@@ -58,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
-      <workItem from="1669622669410" duration="19174000" />
+      <workItem from="1669622669410" duration="19959000" />
     </task>
     <servers />
   </component>
@@ -80,23 +105,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java</url>
+          <url>file://$PROJECT_DIR$/beugrok/ZH_20210105/src/kutatóintézet/Kutatólabor.java</url>
           <line>56</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/beugrok/ZH_20210105/src/teszt/Teszt.java</url>
+          <line>59</line>
           <properties class="teszt.Teszt" method="registerDisease">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
