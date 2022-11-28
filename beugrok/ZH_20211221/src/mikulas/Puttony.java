@@ -15,6 +15,13 @@ public class Puttony implements AjandekCsomag {
         this.ajandekok.addAll(Arrays.asList(ajandekok));
     }
 
+    public Collection<GyerekJatek> gyerekJatekokAboveAge(long ageLimit) throws IllegalArgumentException {
+        if (ageLimit < 0) throw new IllegalArgumentException("Negativ eletkor!");
+        return this.gyerekjatekok().stream()
+                .filter(gyerekJatek -> gyerekJatek.getAgeLimit() > ageLimit)
+                .collect(Collectors.toList());
+    }
+
     @Override
     public int osszErtek() {
         return ajandekok.stream().mapToInt(Ajandek::getPrice).sum();
@@ -42,5 +49,16 @@ public class Puttony implements AjandekCsomag {
             sb.append("\n");
         });
         return sb.toString();
+    }
+
+    public double atlagErtek() {
+        try {
+            return this.ajandekok.stream()
+                    .mapToDouble(ajandek -> ajandek.getTomeg())
+                    .average()
+                    .getAsDouble();
+        } catch (NullPointerException e) {
+            return 0;
+        }
     }
 }

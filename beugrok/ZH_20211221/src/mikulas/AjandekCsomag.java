@@ -10,4 +10,6 @@ public interface AjandekCsomag {
     // visszaadja a gyerekjatekokat a termeszetes rendezettseguk sorrendjeben ugy,
     // hogy az egyenlo gyerekjatekok kozul csak egy szerepel a kollekcioban
     java.util.Collection<GyerekJatek> gyerekjatekok();
+
+    double atlagErtek();
 }
