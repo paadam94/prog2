@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Ajandek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/ZH_20210105",
+    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/ZH_20211221",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -44,6 +44,11 @@
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beugrok/ZH_20211221" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Teszt" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="teszt.Teszt" />
@@ -63,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
-      <workItem from="1669622669410" duration="20631000" />
+      <workItem from="1669622669410" duration="20913000" />
     </task>
     <servers />
   </component>
