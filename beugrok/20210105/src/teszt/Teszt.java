@@ -1,5 +1,6 @@
 package teszt;
 
+import kutatóintézet.BetegsegComparator;
 import kutatóintézet.Kutatólabor;
 import patogenetika.Baktérium;
 import patogenetika.Kórokozó;
@@ -10,10 +11,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 public class Teszt {
     public static void main(String[] args) {
-        java.util.List<Kórokozó> kórokozók = new LinkedList<>();
+        TreeSet<Kórokozó> kórokozók = new TreeSet<>(new BetegsegComparator());
         try {
             File file = new File(args[0]);
             Scanner sc = new Scanner(file);
@@ -46,10 +48,10 @@ public class Teszt {
 
         // filter and print
         kutatólabor.koronavírusokGazdában(input).forEach(System.out::println);
-
+        System.out.println("--------------------------------------");
         // Part 8.
         input = inputScanner.nextLine();
-        KórokozóTár[] tarak = new KórokozóTár[] { kutatólabor };
+        KórokozóTár[] tarak = new KórokozóTár[]{ kutatólabor };
         registerDisease(tarak, input);
         for(KórokozóTár tar: tarak) {
             System.out.println(tar);

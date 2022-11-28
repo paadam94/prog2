@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class Kutatólabor implements KórokozóTár {
     final private String name;
-    final private TreeSet<Kórokozó> kórokozók = new TreeSet<>(new BetegsegComparator());
+    private TreeSet<Kórokozó> kórokozók = new TreeSet<>(new BetegsegComparator());
 
     public Kutatólabor(String name) {
         this.name = name;
@@ -63,15 +63,3 @@ public class Kutatólabor implements KórokozóTár {
 
 }
 
-class BetegsegComparator implements Comparator<Kórokozó> {
-
-    @Override
-    public int compare(Kórokozó o1, Kórokozó o2) {
-        return o1.getNameOfDisease().compareTo(o2.getNameOfDisease());
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return false;
-    }
-}

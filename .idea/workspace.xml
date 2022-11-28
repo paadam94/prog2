@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/patogenetika/Kórokozó.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
-      <workItem from="1669622669410" duration="16429000" />
+      <workItem from="1669622669410" duration="19174000" />
     </task>
     <servers />
   </component>
@@ -77,5 +75,40 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beugrok/20210105/src/kutatóintézet/Kutatólabor.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/beugrok/20210105/src/teszt/Teszt.java</url>
+          <line>60</line>
+          <properties class="teszt.Teszt" method="registerDisease">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="kórokozók" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -9,6 +9,14 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
     private final String nameOfDisease;
     private final String[] hosts;
 
+    public char getType() {
+        return type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public String getNameOfDisease() {
         return nameOfDisease;
     }
