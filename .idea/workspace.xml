@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/AjandekCsomag.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/AjandekCsomag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Puttony.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Puttony.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/telapo/Telapo.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/telapo/Telapo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/ZH_20211221.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/ZH_20211221.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/in2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/in2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Ajandek.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/Ajandek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/AjandekCsomag.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/AjandekCsomag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/GyerekJatek.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/GyerekJatek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Puttony.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/Puttony.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/telapo/Telapo.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/telapo/Telapo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +62,46 @@
       <recent name="$PROJECT_DIR$/beugrok/ZH_20210105/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beugrok/ZH_20201221" />
       <recent name="$PROJECT_DIR$/beugrok/ZH_20210105/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZH_20211221">
+  <component name="RunManager" selected="Application.ZH_20201221">
+    <configuration name="ZH_20201221-bad args" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
+      <module name="ZH_20201221" />
+      <option name="PROGRAM_PARAMETERS" value="doesntexist.bin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZH_20201221-empty args" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
+      <module name="ZH_20201221" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZH_20201221-no gyerekjatek" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
+      <module name="ZH_20201221" />
+      <option name="PROGRAM_PARAMETERS" value="$ContentRoot$/in2.txt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZH_20201221" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
+      <module name="ZH_20201221" />
+      <option name="PROGRAM_PARAMETERS" value="$ContentRoot$/in.txt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZH_20210105" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="teszt.Teszt" />
       <module name="ZH_20210105" />
@@ -69,47 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZH_20211221-bad args" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
-      <module name="ZH_20211221" />
-      <option name="PROGRAM_PARAMETERS" value="doesntexist.bin" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZH_20211221-empty args" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
-      <module name="ZH_20211221" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZH_20211221-no gyerekjatek" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
-      <module name="ZH_20211221" />
-      <option name="PROGRAM_PARAMETERS" value="$ContentRoot$/in2.txt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZH_20211221" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
-      <module name="ZH_20211221" />
-      <option name="PROGRAM_PARAMETERS" value="$ContentRoot$/in.txt" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ZH_20210105" />
-      <item itemvalue="Application.ZH_20211221" />
-      <item itemvalue="Application.ZH_20211221-no gyerekjatek" />
-      <item itemvalue="Application.ZH_20211221-empty args" />
-      <item itemvalue="Application.ZH_20211221-bad args" />
+      <item itemvalue="Application.ZH_20201221" />
+      <item itemvalue="Application.ZH_20201221-no gyerekjatek" />
+      <item itemvalue="Application.ZH_20201221-empty args" />
+      <item itemvalue="Application.ZH_20201221-bad args" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
-      <workItem from="1669622669410" duration="36611000" />
+      <workItem from="1669622669410" duration="37146000" />
     </task>
     <servers />
   </component>
@@ -148,7 +155,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Ajandek.java</url>
+          <url>file://$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/Ajandek.java</url>
           <line>29</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
