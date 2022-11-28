@@ -3,12 +3,14 @@ package mikulas;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 public class Puttony implements AjandekCsomag {
     private final String cimzett;
-    private final java.util.LinkedList<Ajandek> ajandekok = new LinkedList<>();
+    private final java.util.TreeSet<Ajandek> ajandekok = new TreeSet<>();
 
-    Puttony(String cimzett, Ajandek[] ajandekok) {
+    public Puttony(String cimzett, Ajandek[] ajandekok) {
         this.cimzett = cimzett;
         this.ajandekok.addAll(Arrays.asList(ajandekok));
     }
@@ -25,13 +27,20 @@ public class Puttony implements AjandekCsomag {
 
     @Override
     public Collection<GyerekJatek> gyerekjatekok() {
-        return null;
+        Collection<GyerekJatek> gyerekJatekok = new TreeSet<>();
+        this.ajandekok.stream()
+                .filter(ajandek -> ajandek instanceof GyerekJatek)
+                .forEach(gyerekjatek -> gyerekJatekok.add((GyerekJatek) gyerekjatek));
+        return gyerekJatekok;
     }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder(String.format("%s\n\n", this.cimzett));
-        this.ajandekok.forEach(ajandek -> sb.append(ajandek.toString()));
+        this.ajandekok.forEach(ajandek -> {
+            sb.append(ajandek.toString());
+            sb.append("\n");
+        });
         return sb.toString();
     }
 }

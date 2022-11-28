@@ -1,5 +1,7 @@
 package mikulas;
 
+import java.util.Objects;
+
 public class Ajandek implements Comparable<Ajandek> {
     protected String name;
     protected double tomeg;
@@ -17,7 +19,7 @@ public class Ajandek implements Comparable<Ajandek> {
         return price;
     }
 
-    public Ajandek(String name, float tomeg, int price) {
+    public Ajandek(String name, double tomeg, int price) {
         this.name = name;
         this.tomeg = tomeg;
         this.price = price;
@@ -26,35 +28,28 @@ public class Ajandek implements Comparable<Ajandek> {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
+        if (o == null) return false;
         Ajandek ajandek = (Ajandek) o;
-
-        if (!this.name.equals(ajandek.name)) return false;
-        return !(Math.abs(this.tomeg - ajandek.tomeg) > 2);
+        if (!this.getName().equals(ajandek.getName())) return false;
+        return Math.abs(this.getTomeg() - ajandek.getTomeg()) <= 1;
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        result = name.hashCode();
-        temp = Double.doubleToLongBits(tomeg);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
-        return result;
+        return Objects.hash(getName(), getTomeg());
     }
 
     @Override
     public String toString() {
-        return String.format("%s (%f kg), %d Ft", this.name, this.tomeg, this.price);
+        return String.format("%s (%.1f kg), %d Ft", this.name, this.tomeg, this.price);
     }
 
     @Override
     public int compareTo(Ajandek o) {
-        if(this.getName().equals(o.getName())) {
+        if(this.getPrice() == o.getPrice()) {
             return this.getName().compareTo(o.getName());
         } else {
-            return Long.compare(this.getPrice(), o.getPrice());
+            return -Long.compare(this.getPrice(), o.getPrice());
         }
     }
 }
