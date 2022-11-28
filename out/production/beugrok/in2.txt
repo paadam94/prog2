@@ -1,5 +1,0 @@
-V:EBOV:ebola:ember,denevér,majmok:N
-V:SARS-CoV-2:COVID-19:ember,tobzoska,denevér:K
-B:Escherichia coli:bélfertőzés:ember,melegvérű állatok:proteobaktérium
-B:ismeretlen baci:::vadiúj törzs
-V:SARS-CoV-1:SARS:ember,denevér,okos ember:K

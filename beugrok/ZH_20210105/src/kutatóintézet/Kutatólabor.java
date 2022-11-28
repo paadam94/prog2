@@ -1,7 +1,7 @@
 package kutatóintézet;
 
-import patogenetika.KórokozóTár;
 import patogenetika.Kórokozó;
+import patogenetika.KórokozóTár;
 import patogenetika.Vírus;
 
 import java.util.*;
@@ -24,8 +24,8 @@ public class Kutatólabor implements KórokozóTár {
     }
     // visszaadja egy listában a természetes rendezettségük sorrendjében azokat a
     // koronavírusokat, amelyek veszélyt jelentenek a megkapott gazdatestre nézve
-    public java.util.List<Vírus> koronavírusokGazdában(String gazdatest) {
-        java.util.List<Vírus> vírusok = new java.util.LinkedList<>();
+    public List<Vírus> koronavírusokGazdában(String gazdatest) {
+        List<Vírus> vírusok = new LinkedList<>();
         kórokozók.forEach(kórokozó -> {
             if (!(kórokozó instanceof Vírus virus)) return;
             if (!virus.isCorona()) return;

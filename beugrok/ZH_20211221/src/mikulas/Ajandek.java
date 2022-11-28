@@ -1,9 +1,21 @@
 package mikulas;
 
-public class Ajandek {
+public class Ajandek implements Comparable<Ajandek> {
     protected String name;
     protected float tomeg;
     protected long price;
+
+    public String getName() {
+        return name;
+    }
+
+    public float getTomeg() {
+        return tomeg;
+    }
+
+    public long getPrice() {
+        return price;
+    }
 
     public Ajandek(String name, float tomeg, long price) {
         this.name = name;
@@ -32,5 +44,14 @@ public class Ajandek {
     @Override
     public String toString() {
         return String.format("%s (%f kg), %d Ft", this.name, this.tomeg, this.price);
+    }
+
+    @Override
+    public int compareTo(Ajandek o) {
+        if(this.getName().equals(o.getName())) {
+            return this.getName().compareTo(o.getName());
+        } else {
+            return Long.compare(this.getPrice(), o.getPrice());
+        }
     }
 }
