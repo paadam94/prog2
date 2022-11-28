@@ -58,21 +58,6 @@ public abstract class Kórokozó implements Comparable<Kórokozó> {
         return !(name == null || name.isEmpty());
     }
 
-    String typeToString() throws IllegalArgumentException {
-        return switch (this.type) {
-            case 'P' -> "prion";
-            case 'V' -> "virus";
-            case 'B' -> "bacterium";
-            case 'G' -> "gomba";
-            case 'N' -> "noveny";
-            case 'A' -> "allat";
-            default -> {
-                String msg = String.format("Invalid type: %c", type);
-                throw new IllegalArgumentException(msg);
-            }
-        };
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

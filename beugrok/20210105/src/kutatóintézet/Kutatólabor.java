@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class Kutatólabor implements KórokozóTár {
     final private String name;
-    private TreeSet<Kórokozó> kórokozók = new TreeSet<>();
+    final private TreeSet<Kórokozó> kórokozók = new TreeSet<>(new BetegsegComparator());
 
     public Kutatólabor(String name) {
         this.name = name;
@@ -27,13 +27,13 @@ public class Kutatólabor implements KórokozóTár {
     public java.util.List<Vírus> koronavírusokGazdában(String gazdatest) {
         java.util.List<Vírus> vírusok = new java.util.LinkedList<>();
         kórokozók.forEach(kórokozó -> {
-            if (!(kórokozó instanceof Vírus)) return;
-            Vírus virus = (Vírus) kórokozó;
+            if (!(kórokozó instanceof Vírus virus)) return;
             if (!virus.isCorona()) return;
             boolean flag = false;
             for(String victim: virus.getHosts()) {
                 if (victim.equals(gazdatest)) {
                     flag = true;
+                    break;
                 }
             }
             if (flag) vírusok.add(virus);
@@ -43,9 +43,9 @@ public class Kutatólabor implements KórokozóTár {
     // visszaadja lexikografikusan növekvő sorrendben a kórokozótárban szereplő
     // kórokozók által okozott összes betegséget úgy, hogy egy betegség csak egyszer
     // szerepel a kollekcióban (null értékek és üres sztringek nélkül!)
-    public TreeSet betegségek() {
-        TreeSet<String> set = new TreeSet<String>();
-        kórokozók.forEach(kórokozó -> { set.add(kórokozó.getNameOfDisease()); });
+    public TreeSet<String> betegségek() {
+        TreeSet<String> set = new TreeSet<>();
+        kórokozók.forEach(kórokozó -> set.add(kórokozó.getNameOfDisease()));
         return set;
     }
 
