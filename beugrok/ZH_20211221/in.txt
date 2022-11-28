@@ -1,0 +1,7 @@
+nyakkendő;0,1;4000
+5 kg-os súlyzó;5;5555
+kisautó;0,67;3999;2
+Monopoly;0,8;13500;8
+dominó;0,4;2500;4
+kisautó;1,2;12000;3
+sakk-készlet;1,1;8000

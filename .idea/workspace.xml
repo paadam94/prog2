@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/ZH_20210105.bak.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/kutatóintézet/BetegsegComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/kutatóintézet/Kutatólabor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/patogenetika/Baktérium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/patogenetika/Kórokozó.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/patogenetika/KórokozóTár.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/patogenetika/Vírus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/teszt/Teszt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/in2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/GyerekJatek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/src/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/src/in2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105.bak/in2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/src/kutatóintézet/Kutatólabor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20210105/src/kutatóintézet/Kutatólabor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Ajandek.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Ajandek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/beugrok.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/beugrok.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/beugrok/in.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/beugrok/in2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20210105/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20211221/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2I9NLd9Y6sQlJ8S4TY2uoflk2uq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/ZH_20210105",
+    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -77,15 +60,29 @@
       <recent name="$PROJECT_DIR$/beugrok/ZH_20210105/" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ZH_20211221">
     <configuration name="ZH_20210105" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="teszt.Teszt" />
       <module name="ZH_20210105" />
       <option name="PROGRAM_PARAMETERS" value="$ContentRoot$/in2.txt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZH_20211221" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ZH_20211221" />
+      <option name="PROGRAM_PARAMETERS" value="$ContentRoot$/in.txt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beugrok" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ZH_20210105" />
+      <item itemvalue="Application.ZH_20211221" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
-      <workItem from="1669622669410" duration="22190000" />
+      <workItem from="1669622669410" duration="23443000" />
     </task>
     <servers />
   </component>
@@ -125,7 +122,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/beugrok/ZH_20210105.bak/src/teszt/Teszt.java</url>
           <line>59</line>
-          <properties class="teszt.Teszt" method="registerDisease">
+          <properties class="teszt.Teszt">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -133,10 +130,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="kórokozók" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
