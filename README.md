@@ -1,7 +1,7 @@
-# prog2 beugrok
-
+# prog2
+## [beugrok](beugrok/)
 https://arato.inf.unideb.hu/panovics.janos/beugrok_Java.pdf
+## [lego](legko_keszletek_2/)
 
-2021. január 5. feladat (p55)
+## [pa.adam94@mailbox.unideb.hu](mailto:pa.adam94@mailbox.unideb.com)
 
-pa.adam94@mailbox.unideb.com

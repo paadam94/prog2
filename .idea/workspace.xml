@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/ZH_20211221.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/ZH_20211221.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/in2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/in2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Ajandek.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/Ajandek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/AjandekCsomag.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/AjandekCsomag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/GyerekJatek.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/GyerekJatek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/mikulas/Puttony.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/mikulas/Puttony.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beugrok/ZH_20211221/src/telapo/Telapo.java" beforeDir="false" afterPath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20211221/src/telapo/Telapo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/home/adam/pti/pti_code/prog2/beugrok/ZH_20211221",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/adam/pti/pti_code/prog2/beugrok/ZH_20211221&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/beugrok/ZH_20211221" />
@@ -129,6 +120,8 @@
       <updated>1669589786359</updated>
       <workItem from="1669589788012" duration="4865000" />
       <workItem from="1669622669410" duration="37146000" />
+      <workItem from="1669719303112" duration="178000" />
+      <workItem from="1669719514847" duration="94000" />
     </task>
     <servers />
   </component>
