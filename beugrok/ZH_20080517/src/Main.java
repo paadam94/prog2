@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.TreeSet;
 
 enum AnimalType {
@@ -54,7 +53,7 @@ public class Main {
         return animals.stream()
                 .filter(animal -> animal.type == AnimalType.MAMMAL)
                 .filter(animal -> animal.visible)
-                .min((animal1, animal2) -> staticComparator(animal1, animal2))
+                .min((Main::staticComparator))
                 .isPresent()
                 ? AnimalType.MAMMAL.toString()
                 : new String("");
