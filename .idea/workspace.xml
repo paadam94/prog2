@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ZH_20080517/ZH_20080517.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZH_20080517/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +60,12 @@
       <recent name="$PROJECT_DIR$/beugrok/ZH_20210105/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ZH_20080517">
+    <configuration name="ZH_20080517" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="prog2" />
+      <module name="ZH_20080517" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +120,11 @@
       <item itemvalue="Application.ZH_20201221-no gyerekjatek" />
       <item itemvalue="Application.ZH_20201221-empty args" />
       <item itemvalue="Application.ZH_20201221-bad args" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ZH_20080517" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ZH_20080517" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +141,7 @@
       <workItem from="1669719303112" duration="178000" />
       <workItem from="1669719514847" duration="191000" />
       <workItem from="1669719775995" duration="1093000" />
+      <workItem from="1669812415036" duration="4294000" />
     </task>
     <servers />
   </component>
