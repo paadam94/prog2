@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZH_20080517/ZH_20080517.iml" filepath="$PROJECT_DIR$/ZH_20080517/ZH_20080517.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beugrok/ZH_20080517/ZH_20080517.iml" filepath="$PROJECT_DIR$/beugrok/ZH_20080517/ZH_20080517.iml" />
       <module fileurl="file://$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20201221.iml" filepath="$PROJECT_DIR$/beugrok/ZH_20201221/ZH_20201221.iml" />
       <module fileurl="file://$PROJECT_DIR$/beugrok/ZH_20210105/ZH_20210105.iml" filepath="$PROJECT_DIR$/beugrok/ZH_20210105/ZH_20210105.iml" />
       <module fileurl="file://$PROJECT_DIR$/beugrok/beugrok.iml" filepath="$PROJECT_DIR$/beugrok/beugrok.iml" />
