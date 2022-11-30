@@ -22,7 +22,7 @@ class Main {
 	    sc.nextLine();
 	}
 	// sort 1
-	Collections.sort(list, new Comparator1());
+	Collections.sort(list, new PiecesDecThemeIncNameIncNumberIncLegoSetComparator42069());
 	for(LegoSet set: list) {
 	    System.out.println(set);
 	}
@@ -65,7 +65,7 @@ class LegoSet {
 /*
   1. pieces d; theme u; name u; number u
 */
-class Comparator1 implements Comparator<LegoSet> {
+class PiecesDecThemeIncNameIncNumberIncLegoSetComparator42069 implements Comparator<LegoSet> {
     @Override
     public int compare(LegoSet set1, LegoSet set2) {
 	if (set1.pieces != set2.pieces)

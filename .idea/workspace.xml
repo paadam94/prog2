@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b947bc6-b266-4c2c-bfdb-7016cc80e026" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,14 @@
       <recent name="$PROJECT_DIR$/beugrok/ZH_20210105/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZH_20201221">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="prog2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZH_20201221-bad args" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="telapo.Telapo" />
       <module name="ZH_20201221" />
@@ -108,7 +115,13 @@
       <item itemvalue="Application.ZH_20201221-no gyerekjatek" />
       <item itemvalue="Application.ZH_20201221-empty args" />
       <item itemvalue="Application.ZH_20201221-bad args" />
+      <item itemvalue="Application.Main" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,7 +134,8 @@
       <workItem from="1669589788012" duration="4865000" />
       <workItem from="1669622669410" duration="37146000" />
       <workItem from="1669719303112" duration="178000" />
-      <workItem from="1669719514847" duration="94000" />
+      <workItem from="1669719514847" duration="191000" />
+      <workItem from="1669719775995" duration="1093000" />
     </task>
     <servers />
   </component>
